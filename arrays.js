@@ -4,6 +4,6 @@ function addElementToBeginningOfArray(arr, ele) {
   return [ele, ...arr]; // spread operator adds elements without mutating
 }
 
-function destructivelyAddElementToBeginningOfArray() {
-  
+function destructivelyAddElementToBeginningOfArray(arr, ele) {
+  return arr.unshift(ele)
 }
